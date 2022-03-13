@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Quicksand:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    background-color: #fbf6f2;
+    font-family: 'Quicksand';
+}
+
+hr {
+    border: none;
+    margin-bottom: 0.7rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #30313d;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-top: 1.6rem;
+    text-align: left;
+    color: #30313d;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #04BFAD;
+}
+
+label, p {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+input, select, textarea {
+    margin: 0.3rem 0.3rem 0.6rem 0px;
+    width: 30%;
+    height: 2.5rem;
+    padding-left: 0.6rem;
+    font-family: 'Lato';
+    font-size: 1rem;
+    border: 1px solid #f2e0d1;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 47rem;
+    height: 7.5rem;
+    resize: none;
+    outline: none;
+    padding: 0.6rem;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+.header-1 {
+    width: 100%;
+    height: 4.4rem;
+    background-color: #04bfad;
+    margin: 0;
+}
+
+.logo {
+    float: left;
+    padding-top: 1.25rem;
+    padding-left: 10rem;
+}
+
+.header-2 {
+    width: 100%;
+    height: 20rem;
+    padding-left: 10rem;
+    padding-top: 3.1rem;
+    box-sizing: border-box;
+    background-color: #dcfce7;
+    background-image: url(../images/turistas.png);
+    background-repeat: no-repeat;
+    background-position: 48rem 3.5rem;   
+}
+
+.header-2 p {
+    font-size: 1.4rem;
+    color: #30313d;
+    text-align: justify;
+}
+
+.compartilhe {
+    color: #eb5d5d;
+}
+
+.textos-header {
+    width: 28rem;
+    height: 16.2rem;
+    padding: 0;
+}
+
+.content {
+    width: 50%;
+    height: auto;
+    margin: 0 10rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.inline, .inline-2 {
+    margin-bottom: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inline label {
+    width: 30%;
+    margin: 0 0.6rem;
+}
+
+.inline-2 label, .inline-2 input {
+    width: 50%;
+    margin-right: 0.9rem;
+}
+
+.avaliacao {
+    display: flex;
+    width: 50%;
+    margin: 1.25rem 0;
+}
+
+.avaliacao input, .avaliacao label {
+    width: 100%;
+    height: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+.botoes {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 0.9rem;
+}
+
+.botoes input {
+    width: 11.25rem;
+    height: 3.1rem;
+    font-size: 1.25rem;
+    color: #fff;
+    background-color: #04BFAD;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.089);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #eb5d5d;
+    color: #ffffff;
+}
+
