@@ -161,30 +161,43 @@
                     </div>
                 </div>
                 <div class="campos">
-                    <label for="avaliacao" class="avaliacao">O que você achou desse Ponto Turístico?</label>
-                </div>
-                <div class="campos">
-                    <div class="inline avaliacao">
-                        <input type="radio" name="avaliacao" class="radio" id="avaliacao1" value="ótimo" checked>
-                        <label for="avaliacao1">Íncrivel!</label>
-                        <input type="radio" name="avaliacao" class="radio" id="avaliacao2" value="bom">
-                        <label for="avaliacao2">Legal.</label>
-                        <input type="radio" name="avaliacao" class="radio" id="avaliacao3" value="ruim">
-                        <label for="avaliacao3">Ruim...</label>
+                    <p><strong>Informações sobre o local:</strong></p>
+                    <div class="check">
+                        <input type="checkbox" name="infos-1" id="infos-1" value="criancas">
+                        <label for="infos-1">Permitido crianças</label>
+                        <input type="checkbox" name="infos-2" id="infos-2" value="animais">
+                        <label for="infos-2">Permitido animais</label>
+                        <input type="checkbox" name="infos-3" id="infos-3" value="pcds">
+                        <label for="infos-3">Acessibilidade para PCD's</label>
+                        <input type="checkbox" name="infos-4" id="infos-4" value="estacionamento">
+                        <label for="infos-4">Estacionamento disponível</label>
                     </div>
-                </div>
-                <hr>
-                <div class="campos">
-                    <label for="infos">Descrição do Ponto Turístico</label>
-                    <textarea name="" id="infos"
-                        placeholder="Descreva sua experiência, como é o clima do local, indicações de serviços e o que mais achar importante!"></textarea>
-                </div>
+                    <div class="campos">
+                        <label for="avaliacao" class="avaliacao">O que você achou desse Ponto Turístico?</label>
+                    </div>
+                    <div class="campos">
+                        <div class="inline avaliacao">
+                            <input type="radio" name="avaliacao" class="radio" id="avaliacao1" value="ótimo" checked>
+                            <label for="avaliacao1">Íncrivel!</label>
+                            <input type="radio" name="avaliacao" class="radio" id="avaliacao2" value="bom">
+                            <label for="avaliacao2">Legal.</label>
+                            <input type="radio" name="avaliacao" class="radio" id="avaliacao3" value="ruim">
+                            <label for="avaliacao3">Ruim...</label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="campos">
+                        <label for="infos">Descrição do Ponto Turístico</label>
+                        <textarea name="" id="infos"
+                            placeholder="Descreva sua experiência, como é o clima do local, indicações de serviços e o que mais achar importante!"></textarea>
+                    </div>
             </fieldset>
             <div class="botoes">
                 <input class="botao" type="submit" value="Cadastrar">
             </div>
         </form>
     </main>
+    
 </body>
 
 </html>
